@@ -4,11 +4,15 @@ Please pull down this repository and then ```cd``` into the directory.
 
 ### Step One
 
-You will need to run ```composer install```
+You will need to run:
+
+```composer install```
 
 ### Step Two
 
-You will need to make a copy of the ```.env.example``` file by running ```cp .env.example .env```
+You will need to make a copy of the ```.env.example``` file by running:
+
+```cp .env.example .env```
 
 Please check this has copied the file and you should now have a ```.env``` file
 
@@ -24,7 +28,9 @@ DB_PASSWORD=secret
 
 ### Step Four
 
-Hop back to the terminal window and generate the application key by running: ```php artisan key:generate```
+Hop back to the terminal window and generate the application key by running:
+
+```php artisan key:generate```
 
 ### Step Five
 
